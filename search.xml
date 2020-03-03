@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Python String 方法</title>
+      <link href="/2019/12/19/PythonString/"/>
+      <url>/2019/12/19/PythonString/</url>
+      
+        <content type="html"><![CDATA[<table><thead><tr><th align="center">方法</th><th align="center">功能</th></tr></thead><tbody><tr><td align="center">capitalize()</td><td align="center">把字符串的第一个字符改为大写</td></tr><tr><td align="center">casefold()</td><td align="center">把整个字符串的所有字符改为小写</td></tr><tr><td align="center">center(width)</td><td align="center">将字符串居中，并使用空格填充至长度 width 的新字符串</td></tr><tr><td align="center">count(sub[, start[, end]])</td><td align="center">返回 sub 在字符串里边出现的次数，start 和 end 参数表示范围，可选。</td></tr><tr><td align="center">encode(encoding=’utf-8’, errors=’strict’)</td><td align="center">以 encoding 指定的编码格式对字符串进行编码。</td></tr><tr><td align="center">endswith(sub[, start[, end]])</td><td align="center">检查字符串是否以 sub 子字符串结束，如果是返回 True，否则返回 False。start 和 end 参数表示范围，可选。</td></tr><tr><td align="center">expandtabs([tabsize=8])</td><td align="center">把字符串中的 tab 符号（\t）转换为空格，如不指定参数，默认的空格数是 tabsize=8。</td></tr><tr><td align="center">find(sub[, start[, end]])</td><td align="center">检测 sub 是否包含在字符串中，如果有则返回索引值，否则返回 -1，start 和 end 参数表示范围，可选。</td></tr><tr><td align="center">index(sub[, start[, end]])</td><td align="center">跟 find 方法一样，不过如果 sub 不在 string 中会产生一个异常。</td></tr><tr><td align="center">isalnum()</td><td align="center">如果字符串至少有一个字符并且所有字符都是字母或数字则返回 True，否则返回 False。</td></tr><tr><td align="center">isalpha()</td><td align="center">如果字符串至少有一个字符并且所有字符都是字母则返回 True，否则返回 False。</td></tr><tr><td align="center">isdecimal()</td><td align="center">如果字符串只包含十进制数字则返回 True，否则返回 False。</td></tr><tr><td align="center">isdigit()</td><td align="center">如果字符串只包含数字则返回 True，否则返回 False。</td></tr><tr><td align="center">islower()</td><td align="center">如果字符串中至少包含一个区分大小写的字符，并且这些字符都是小写，则返回 True，否则返回 False。</td></tr><tr><td align="center">isnumeric()</td><td align="center">如果字符串中只包含数字字符，则返回 True，否则返回 False。</td></tr><tr><td align="center">isspace()</td><td align="center">如果字符串中只包含空格，则返回 True，否则返回 False。</td></tr><tr><td align="center">istitle()</td><td align="center">如果字符串是标题化（所有的单词都是以大写开始，其余字母均小写），则返回 True，否则返回 False。</td></tr><tr><td align="center">isupper()</td><td align="center">如果字符串中至少包含一个区分大小写的字符，并且这些字符都是大写，则返回 True，否则返回 False。</td></tr><tr><td align="center">join(sub)</td><td align="center">以字符串作为分隔符，插入到 sub 中所有的字符之间。</td></tr><tr><td align="center">ljust(width)</td><td align="center">返回一个左对齐的字符串，并使用空格填充至长度为 width 的新字符串。</td></tr><tr><td align="center">lower()</td><td align="center">转换字符串中所有大写字符为小写。</td></tr><tr><td align="center">lstrip()</td><td align="center">去掉字符串左边的所有空格</td></tr><tr><td align="center">partition(sub)</td><td align="center">找到子字符串 sub，把字符串分成一个 3 元组 (pre_sub, sub, fol_sub)，如果字符串中不包含 sub 则返回 (‘原字符串’, ‘’, ‘’)</td></tr><tr><td align="center">replace(old, new[, count])</td><td align="center">把字符串中的 old 子字符串替换成 new 子字符串，如果 count 指定，则替换不超过 count 次。</td></tr><tr><td align="center">rfind(sub[, start[, end]])</td><td align="center">类似于 find() 方法，不过是从右边开始查找。</td></tr><tr><td align="center">rindex(sub[, start[, end]])</td><td align="center">类似于 index() 方法，不过是从右边开始。</td></tr><tr><td align="center">rjust(width)</td><td align="center">返回一个右对齐的字符串，并使用空格填充至长度为 width 的新字符串。</td></tr><tr><td align="center">rpartition(sub)</td><td align="center">类似于 partition() 方法，不过是从右边开始查找。</td></tr><tr><td align="center">rstrip()</td><td align="center">删除字符串末尾的空格。</td></tr><tr><td align="center">split(sep=None, maxsplit=-1)</td><td align="center">不带参数默认是以空格为分隔符切片字符串，如果 maxsplit 参数有设置，则仅分隔 maxsplit 个子字符串，返回切片后的子字符串拼接的列表。</td></tr><tr><td align="center">splitlines(([keepends]))</td><td align="center">在输出结果里是否去掉换行符，默认为 False，不包含换行符；如果为 True，则保留换行符。。</td></tr><tr><td align="center">startswith(prefix[, start[, end]])</td><td align="center">检查字符串是否以 prefix 开头，是则返回 True，否则返回 False。start 和 end 参数可以指定范围检查，可选。</td></tr><tr><td align="center">strip([chars])</td><td align="center">删除字符串前边和后边所有的空格，chars 参数可以定制删除的字符，可选。</td></tr><tr><td align="center">swapcase()</td><td align="center">翻转字符串中的大小写。</td></tr><tr><td align="center">title()</td><td align="center">返回标题化（所有的单词都是以大写开始，其余字母均小写）的字符串。</td></tr><tr><td align="center">translate(table)</td><td align="center">根据 table 的规则（可以由 str.maketrans(‘a’, ‘b’) 定制）转换字符串中的字符。</td></tr><tr><td align="center">upper()</td><td align="center">转换字符串中的所有小写字符为大写。</td></tr><tr><td align="center">zfill(width)</td><td align="center">返回长度为 width 的字符串，原字符串右对齐，前边用 0 填充。</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> string </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MagicMirror系列教程(六):自启与调整等</title>
       <link href="/2019/11/29/MagicMirror6.0/"/>
       <url>/2019/11/29/MagicMirror6.0/</url>
